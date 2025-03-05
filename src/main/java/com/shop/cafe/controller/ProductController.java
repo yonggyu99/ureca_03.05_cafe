@@ -12,6 +12,7 @@ import com.shop.cafe.service.ProductService;
 
 @RestController
 @CrossOrigin("http://127.0.0.1:5500")
+
 public class ProductController {
 	
 	@Autowired	//DI (자동으로 productService를 new 해 줌)
